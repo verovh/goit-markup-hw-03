@@ -209,16 +209,18 @@ body{
     display: flex;
     margin-top: 94px;
     margin-bottom: 94px;
-    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
 
 }
 
 .howwedoit-items-container{
     display: flex;
-    width: 85%;
     justify-content: space-between;
-    align-content: space-evenly;
-    align-items: center;
+    align-content: center;
+    padding: 0;
+    gap: 10px;
+
 }
 
 .howwedoit-items{
