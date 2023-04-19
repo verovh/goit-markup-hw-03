@@ -25,36 +25,43 @@
   </head>
 
   <body class="list-style-none">
-    <header class="header-border container">
-      <div class="topmenu">
-        <!-- Banner superior navegacion -->
-        <a href="#" class="logo-link">WebStudio</a>
+    <header class="header-border main-container">
+      <div class="container flex-container">
+        <div class="topmenu">
+          <!-- Banner superior navegacion -->
+          <a href="#" class="logo-link">WebStudio</a>
 
-        <nav class="text-basic-color toplinks-container">
-          <ul class="toplinks">
-            <li class="toplinks-current">
-              <a href="#" target="_self">Studio</a>
-            </li>
-            <li><a href="./portfolio.html" target="_self">Portfolio</a></li>
-            <li><a href="./contacts">Contacts</a></li>
+          <nav class="text-basic-color toplinks-container">
+            <ul class="toplinks">
+              <li class="toplinks-current">
+                <a href="#" target="_self">Studio</a>
+              </li>
+              <li><a href="./portfolio.html" target="_self">Portfolio</a></li>
+              <li><a href="./contacts">Contacts</a></li>
+            </ul>
+          </nav>
+
+          <ul class="address-toplinks">
+            <li class="address-links "><a href="Tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="address-links "><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           </ul>
-        </nav>
-
-        <ul class="address-toplinks">
-          <li class="address-links "><a href="Tel:+380961111111">+38 096 111 11 11</a></li>
-          <li class="address-links "><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        </ul>
+        </div>
       </div>
     </header>
 
     <main>
-        <section class="banner-top-title banner-top-button container">
-          <h1 class="banner-item">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-          <button type="button" class="button-cursor banner-button">Request our service</button>
-        </section>
+      <div class="main-container banner-top-title">
+        <div class="container flex-container ">
+          <section class="banner-top-button">
+            <h1 class="banner-item">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+            <button type="button" class="button-cursor banner-button">Request our service</button>
+          </section>
+        </div>
+      </div>
 
         <!-- SECTION HOW WE DO IT (titles and descriptions)-->
-        <section class="howwedoit container">
+      <div class="main-container">
+        <section class="howwedoit container flex-container">
             <ul class="howwedoit-items-container">
               <li class="howwedoit-items">
                 <h3 class="howwedoit-title">ATTENTION TO DETAILS</h3>
@@ -86,8 +93,10 @@
               </li>
             </ul>
         </section>
+      </div>
 
         <!-- SECTION WHAT WE DO (Only images) -->
+      <div class=" flex-container">
         <section class="whatwedo container">
             <h2 class="main-titles">What we do</h2>
             <ul class="whatwedo-img">
@@ -102,9 +111,11 @@
               </li>
             </ul>
         </section>
+      </div>
 
         <!-- Sección quienes somos (fotos con captions) -->
-        <section class="whoweare container">
+        <section class="whoweare flex-container">
+          <div class="container">
             <h2 class="main-titles">Our Team</h2>
             <ul class="whoweare-img-container">
               <li class="whoweare-img-card">
@@ -144,12 +155,13 @@
                 <p class="whoweare-career">UI Designer</p>
               </li>
             </ul>
+          </div>
         </section>
 
     </main>
 
-    <footer class="banner-footer container">
-        <section class="footer-container">
+    <footer class="banner-footer ">
+        <section class="footer-container container">
           <a href="#" class="logo-link footer-item">WebStudio</a>
           <address class="address-text">
             <ul class="footer-item">

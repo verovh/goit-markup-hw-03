@@ -25,11 +25,21 @@ body{
 
 /* FLEXBOX */
 
+.main-container{
+    display: flex;
+    align-items: center;
+}
+
 .container{
     width: 1200px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+}
 
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -243,8 +253,8 @@ body{
 /* --- whatwedo */
 
 .whatwedo{
-    margin-bottom: 94px;;
-
+    margin-top: 94px;
+    margin-bottom: 94px;
 }
 
 .whatwedo-img{
